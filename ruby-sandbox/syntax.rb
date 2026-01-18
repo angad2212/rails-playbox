@@ -126,6 +126,11 @@ end
 status = :ok
 puts status
 
+# hash with symbol keys
+person = { name: "Alice", age: 30 }
+puts person[:name]
+puts person[:age]
+
 # ===== Ranges =====
 range_inclusive = 1..5   # includes 5
 range_exclusive = 1...5  # excludes 5
