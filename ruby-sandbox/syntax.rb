@@ -160,3 +160,7 @@ puts "proc: #{my_proc.call(2)}   # missing arg doesn't error"
 
 # what proc is that it is more flexible with arguments.
 # it basically wraps a block of code which can be called later.
+
+# lamnda is more strict with arguments, it behaves like a method.
+# it basically is a way to define an anonymous method. 
+# and proc is a way to define an anonymous block of code.
