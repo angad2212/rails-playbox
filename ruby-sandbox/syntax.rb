@@ -158,3 +158,5 @@ puts "lambda: #{my_lambda.call(2, 3)}"
 my_proc = Proc.new { |x, y| (x || 0) + (y || 0) }
 puts "proc: #{my_proc.call(2)}   # missing arg doesn't error"
 
+# what proc is that it is more flexible with arguments.
+# it basically wraps a block of code which can be called later.
